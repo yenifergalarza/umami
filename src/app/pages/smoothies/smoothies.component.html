@@ -1,0 +1,28 @@
+<section class="ae-container-fluid ae-container-fluid--inner rk-portfolio">
+    <div class="center" *ngIf="productosServices.cargando">
+        <h2>Caragando</h2>
+        <div class="cup" title="0">
+
+        </div>
+        <p>Espere por favor</p>
+    </div>
+</section>
+<section class="ae-container-fluid ae-container-fluid--inner rk-portfolio">
+
+    <div class="ae-grid ae-grid--collapse au-xs-ptp-1" *ngIf="!productosServices.cargando">
+        <div class="ae-grid__item item-lg-8 ">
+            <h1 class="ae-u-bolder ">SMOOTHIES</h1>
+            <p class="ae-eta">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="ae-eta">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+        </div>
+    </div>
+    <div class="ae-masonry ae-masonry-md-2 ae-masonry-xl-3" *ngIf="!productosServices.cargando">
+        <a *ngFor="let producto of productosServices.productos" [routerLink]="['/item',producto.cod]" class="animated fadeIn rk-item ae-masonry__item">
+            <img src="assets/productos/{{producto.url}}.png" alt="" />
+            <div class="item-meta">
+                <h2>{{ producto.titulo }}</h2>
+                <p>{{ producto.categoria }}</p>
+            </div>
+        </a>
+    </div>
+</section>

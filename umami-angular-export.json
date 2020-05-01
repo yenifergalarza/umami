@@ -1,0 +1,33 @@
+{
+  "equipo" : [ {
+    "frase" : "algo",
+    "nombre" : "Kate Lu cordero",
+    "puesto" : "COO - OPERACIONES ",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/umami-angular.appspot.com/o/kl.JPG?alt=media&token=a16e7cf3-9f4b-45a4-9e31-15d090adddfd"
+  }, {
+    "frase" : "intro",
+    "nombre" : "Beatriz Pérez Laura",
+    "puesto" : "CFO FINANZAS",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/umami-angular.appspot.com/o/bl.JPG?alt=media&token=6e4664dd-1615-4f6d-9760-375b10f8001c"
+  }, {
+    "frase" : "algo",
+    "nombre" : "Jaime Martinez Altamirano",
+    "puesto" : "CTO TECNOLOGÍA Y MARKETING",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/umami-angular.appspot.com/o/ja.JPG?alt=media&token=59c1e9dd-f664-4c96-ba2d-79e21e973f84"
+  }, {
+    "frase" : "qwerty",
+    "nombre" : "Angie Evangelista",
+    "puesto" : "CPO PRODUCCIÓN",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/umami-angular.appspot.com/o/bl.JPG?alt=media&token=6e4664dd-1615-4f6d-9760-375b10f8001c"
+  }, {
+    "frase" : "qwerty",
+    "nombre" : "José Galvez",
+    "puesto" : "EJECUTIVO DE VENTAS",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/umami-angular.appspot.com/o/bl.JPG?alt=media&token=6e4664dd-1615-4f6d-9760-375b10f8001c"
+  }, {
+    "frase" : "qwerty",
+    "nombre" : "Diego Zorrilla",
+    "puesto" : "EJECUTIVO DE VENTAS",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/umami-angular.appspot.com/o/bl.JPG?alt=media&token=6e4664dd-1615-4f6d-9760-375b10f8001c"
+  } ]
+}
