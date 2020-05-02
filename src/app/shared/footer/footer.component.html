@@ -1,9 +1,40 @@
 <footer class="ae-container-fluid rk-footer">
-    <div class="ae-grid ae-grid--collapse">
-        <div class="ae-grid__item item-lg-3 au-xs-ta-center au-lg-ta-left">
+    <div class="ae-grid ae-grid--alt au-xs-ptp-1 ">
+        <div class="ae-grid__item--alt item-lg-4 ">
+            <p> <a routerLink="about" routerLink="about" class="rk-menu__link ae-u-bolder"> ACERCA DE
+        </a></p>
+
+            <div>
+                <p> <a routerLink="about" class=""> Sobre UMAMI </a> </p>
+                <p><a routerLink="about" class=" "> Explora Nuestro Ecosistema </a></p>
+                <p> <a routerLink="about" class=""> Folleto de Nuestro productos </a> </p>
+            </div>
+        </div>
+        <div class="ae-grid__item--alt item-lg-4">
+            <p class=" au-xs-ta-center">
+                <a routerLink="about" class=" au-xs-ta-center ae-u-bolder"> NUESTRA COMUNIDAD
+        </a>
+            </p>
+
+            <p class=" au-xs-ta-center"> <a routerLink="about" class=" au-xs-ta-center"> Blog </a></p>
+            <p class=" au-xs-ta-center"><a routerLink="about" class=" au-xs-ta-center"> Prensa </a></p>
+            <p class=" au-xs-ta-center"> <a routerLink="about" class=" au-xs-ta-center"> Preguntas Frecuentes </a></p>
+        </div>
+        <div class="ae-grid__item--alt item-lg-4 au-lg-ta-right">
+            <p> <a routerLink="about" class="ae-u-bolder "> TIENDA </a></p>
+            <p> <a routerLink="about" class="">Empezar </a></p>
+            <p> <a routerLink="about" class=" "> Batidos </a></p>
+            <p><a routerLink="about" class=" "> Conviértete en un Embajador </a></p>
+        </div>
+
+    </div>
+
+    <div class="ae-grid ae-grid--collapse ">
+        <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-left">
             <ul class="rk-menu rk-footer-menu">
                 <li class="rk-menu__item">
                     <a routerLink="about" class="rk-menu__link">Nosotros</a>
+
                 </li>
                 <li class="rk-menu__item">
                     <a routerLink="smoothies" class="rk-menu__link">Smoothies</a>
@@ -12,9 +43,7 @@
                     <a href="contact.html" class="rk-menu__link">Contacto</a>
                 </li>
             </ul>
-            <p class="rk-footer__text rk-footer__copy">
-                <span class="ae-u-bold">© </span><span class="ae-u-bolder"> {{ anio }} Umami </span> &copy;
-            </p>
+
         </div>
         <div class="ae-grid__item item-lg-4 au-xs-ta-center">
             <a target="_blank" [href]="_servicio.info.facebook" class="rk-social-btn">
@@ -25,7 +54,7 @@
 
             <a target="_blank" [href]="_servicio.info.twitter" class="rk-social-btn">
                 <svg>
-          <use xlink:href="assets/img/symbols.svg#icon-twitter"></use>
+          <use xlink:href="assets/img/hands.svg#hand"></use>
         </svg>
             </a>
             <a target="_blank" [href]="_servicio.info.instagram" class="rk-social-btn">
@@ -36,13 +65,15 @@
         </div>
         <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right">
             <p class="rk-footer__text rk-footer__contact">
-                <span class="ae-u-bold">Email: </span>
+                <span class="ae-u-bold">Correo: </span>
                 <span class="ae-u-bolder">
-          <!-- <a href="mailTo:{{ _servicio.info.email }}" class="rk-dark-color "> {{ _servicio.info.email }}</a> -->
-          <a href="mailTo:correo@correo.com" class="rk-dark-color">
-            correo@correo.com</a>
+          <a href="mailTo:{{ _servicio.info.email }}" class="rk-dark-color "> {{ _servicio.info.email }}</a>
+
         </span>
             </p>
         </div>
+        <p class="rk-footer__text rk-footer__copy">
+            <span class="ae-u-bold">© </span><span class="ae-u-bolder"> {{ anio }} Umami </span> &copy;
+        </p>
     </div>
 </footer>

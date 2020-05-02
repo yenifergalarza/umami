@@ -5,14 +5,126 @@
 }
 
 .backgroundHome1 {
-    background-image: url(../../../assets/img/fondo2.jpg);
+    background-image: url(../../../assets/img/Frame-1.png);
     background-size: cover;
     opacity: 1;
-    filter: brightness(0.5);
 }
 
 .card {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #ff993a
+}
+
+.h-100 {
+    height: 33rem;
+}
+
+h2.Text-invt {
+    color: transparent;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.Text-invt {
+    background: url('../../../assets/img/frutas.gif')no-repeat;
+}
+
+.bg-black {
+    background-color: #202020;
+}
+
+.btnBorder {
+    position: relative;
+    width: 180px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: .8rem 2rem;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    line-height: initial;
+}
+
+.btnBorder svg,
+.btnBorder svg rect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+}
+
+.btnBorder svg rect {
+    stroke: rgb(255, 255, 255);
+    stroke-width: 4;
+    transition: 1s;
+    stroke-dasharray: 80, 120;
+}
+
+.btnBorder:hover svg rect,
+.btnBorder:hover svg rect {
+    stroke-dasharray: 110, 60;
+    stroke-dashoffset: 300;
+}
+
+.btnBorder--lg svg rect {
+    stroke-dasharray: 125, 130;
+}
+
+.btnBorder--xl svg rect {
+    stroke-dasharray: 194, 130;
+}
+
+.btnBorder.border-black svg rect {
+    stroke: #202020;
+}
+
+.btnBorder.border-black {
+    color: #202020;
+    font-family: Aileron, Helvetica, Arial, sans-serif;
+}
+
+span.swiper-pagination-bullet-active {
+    background: #ff993a !important;
+    opacity: 1;
 }
