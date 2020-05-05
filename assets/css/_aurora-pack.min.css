@@ -4,6 +4,11 @@
     margin-left: auto
 }
 
+@font-face {
+    font-family: Gravity-Bold;
+    src: url("../fonts/Gravity-Bold.otf") format("opentype");
+}
+
 hr,
 img {
     border: 0
@@ -2146,7 +2151,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: inherit;
+    font-family: "Gravity-Bold";
     font-weight: 500;
     line-height: 1.2;
     margin: 0 0 .75rem

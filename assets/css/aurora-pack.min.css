@@ -4,6 +4,31 @@
     margin-left: auto
 }
 
+@font-face {
+    font-family: Gravity-Regular;
+    src: url("../fonts/Gravity-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Gravity-UltraLight;
+    src: url("../fonts/Gravity-UltraLight.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Gravity-Light;
+    src: url("../fonts/Gravity-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Gravity-Bold;
+    src: url("../fonts/Gravity-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: AUBREY1;
+    src: url("../fonts/AUBREY1__.TTF") format("opentype");
+}
+
 hr,
 img {
     border: 0
@@ -2371,7 +2396,7 @@ pre {
 body {
     background-color: #fff;
     color: #202020;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Gravity-Light;
     font-size: 1.125rem;
     line-height: 1.5
 }
@@ -2382,7 +2407,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: inherit;
+    font-family: Gravity-Bold;
     font-weight: 500;
     line-height: 1.2;
     margin: 0 0 .75rem
@@ -4891,4 +4916,20 @@ select.ae-input--lg {
 
 .au-circle {
     border-radius: 50%
+}
+
+.g-l {
+    font-family: Gravity-Light;
+}
+
+.g-r {
+    font-family: Gravity-Regular;
+}
+
+.g-b {
+    font-family: Gravity-Bold;
+}
+
+.AUB {
+    font-family: AUBREY1;
 }
